@@ -1,7 +1,6 @@
 {
   "name": "expressdemo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
@@ -9,10 +8,28 @@
   "author": "KRUNAL LATHIYA",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "mongoose": "^5.0.1",
+=======
+    "body-parser": "^1.20.0",
+    "ejs": "^2.7.4",
+    "express": "^4.18.1",
+    "mongoose": "^5.13.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrunalLathiya/NodejsExpress2018.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KrunalLathiya/NodejsExpress2018/issues"
+  },
+  "homepage": "https://github.com/KrunalLathiya/NodejsExpress2018#readme",
+  "description": "",
+  "devDependencies": {
+>>>>>>> 640f56520887cba149b6affa396e5158627b12f4
     "nodemon": "^2.0.16"
   }
 }
