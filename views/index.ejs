@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
   </head>
   <body>
-    <div class="container">
-      <table class="table table-striped">
+    <div>
+      <table class="table ">
         <thead>
           <tr>
-            <td><b>Coin Name</b></td>
-            <td><b>Coin Price</b></td>
-            <td colspan="2"><b>Action</b></td>
+            <td><b>Nombre moneda</b></td>
+            <td><b>Precio Moneda</b></td>
+            <td><b>Editar Moneda</b></td>
+            <td><b>Borrar Moneda</b></td>
           </tr>
         </thead>
         <tbody>
@@ -20,8 +21,8 @@
           <tr>
             <td><%= coins[i].name %></td>
             <td><%= coins[i].price %></td>
-            <td><a href="/coins/edit/<%= coins[i]._id %>" class="btn btn-primary">Edit</a></td>
-            <td><a href="/coins/delete/<%= coins[i]._id %>" class="btn btn-danger">Delete</a></td>
+            <td><a href="/coins/edit/<%= coins[i]._id %>" class="btn btn-default">Editar</a></td>
+            <td><a href="/coins/delete/<%= coins[i]._id %>" class="btn btn-default">Borrar</a></td>
           </tr>
           <% } %>
         </tbody>
